@@ -13,10 +13,12 @@ import { Link } from 'react-router-dom';
 import CaseStudy from './Casestuday';
 import Testimonial from './tertimonial';
 import End from './End';
+import Navbar from '../Components/Navbar';
 
 const Home = () => {
   return (
     <>
+    <Navbar/>
     <section className="main-intro">
       <div className="intro-content">
         <div className="intro-text">

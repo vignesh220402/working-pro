@@ -2,7 +2,7 @@ import './Navbar.css'; // Assuming you have a CSS file for styling
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import mylogo from '../assets/logo.jpg';
-
+import Home from '../pages/Home';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -40,6 +40,7 @@ const Navbar = () => {
           <Link to="/contact" className="contact-button">Contact Us</Link>
         </div>
       </nav>
+      <Home/>
     </div>
   );
 };
